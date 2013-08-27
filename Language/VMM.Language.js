@@ -2,15 +2,15 @@
 ================================================== */
 if(typeof VMM != 'undefined' && typeof VMM.Language == 'undefined') {
 	VMM.Language = {
-		lang: "en",
+		lang: "es",
 		api: {
-			wikipedia: "en"
+			wikipedia: "es"
 		},
 		date: {
-			month: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-			month_abbr: ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."],
-			day: ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-			day_abbr: ["Sun.","Mon.", "Tues.", "Wed.", "Thurs.", "Fri.", "Sat."]
+			month: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Augosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
+			month_abbr: ["Ene", "Feb", "Mar", "Abril", "Mayo", "Junio", "Julio", "Ago", "Sept", "Oct", "Nov", "Dic"],
+			day: ["Domingo","Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"],
+			day_abbr: ["Dom","Lun", "Mar", "Mier", "Jue", "Vier", "Sab"]
 		}, 
 		dateformats: {
 			year: "yyyy",
@@ -25,13 +25,13 @@ if(typeof VMM != 'undefined' && typeof VMM.Language == 'undefined') {
 			full_long_small_date: "h:MM TT'<br/><small>mmm d',' yyyy'</small>'"
 		},
 		messages: {
-			loading_timeline: "Loading Timeline... ",
-			return_to_title: "Return to Title",
+			loading_timeline: "Cargando Línea del Tiempo... ",
+			return_to_title: "Regresar al título",
 			expand_timeline: "Expand Timeline",
 			contract_timeline: "Contract Timeline",
 			wikipedia: "From Wikipedia, the free encyclopedia",
-			loading_content: "Loading Content",
-			loading: "Loading"
+			loading_content: "Cargando contenido",
+			loading: "Cargando"
 		}
 	}
 };
